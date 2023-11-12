@@ -5,7 +5,7 @@ newsletterForm.addEventListener('submit', (e) => {
 
     const data = new FormData(e.target);
 
-    alert(`Login: ${data.get('email')}`);
+    alert(`Podaany adres email: ${data.get('email')}`);
 
     console.log('Zatwierdzony formularz');
 });
